@@ -1,0 +1,222 @@
+
+
+
+/*.subword{
+    color: brown;
+}*/
+
+/* 0 Top Bar */
+
+
+
+.zerotopbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 17px;
+    
+}
+
+/* brand name */
+.brandname{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: navy;
+}
+/*
+
+/* navigation list*/
+
+.navigation{
+    background-color: black;
+    padding: 14px 32px;
+}
+.navigation:hover{
+    color: red;
+}
+
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li a:hover {
+  color: red;
+}
+
+
+
+
+
+.navigation ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+/* cart */
+.cart{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3 ease  ;
+    
+}
+
+.cart:hover{
+    color: white;
+    background-color: black;
+}
+
+/* cart */
+.subscribe{
+background-color: black;
+color: white;
+padding: 5px;
+width: 110px;
+}
+
+/* footer */
+.footer{
+background-color: black;
+font-size: 17px;
+color: white;
+padding: 14px 32px;
+}
+
+/* about */
+.about{
+    font-size: 23px;
+    background-color: navy;
+    color: white;
+    padding: 16px 40px;
+
+}
+
+/* submit button*/
+.submit{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 80px;
+}
+
+/* shopping heading*/
+.shopping{
+    background-color: navy;
+    color: white;
+    padding: 16px 40px;
+
+}
+
+/* buttoncartdelete*/
+.buttoncartdelete{
+width: 30px;
+height: 30px;
+font-weight: bold;
+background-color: red;
+color: white;
+border: none;
+border-radius: 10%;
+}
+
+.buttoncartdelete:hover{
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+
+}
+
+/* cart background*/
+
+.cartbackground tr:nth-child(odd) {
+background-color: lightyellow;
+}
+
+/* proceed to checkout button*/
+.proceedtocheckoutbutton{
+background-color: red;
+padding: 5px;
+width: 180px;
+color: white;
+border: none;
+}
+
+.proceedtocheckoutbutton:hover{
+    color: white;
+    background-color: black;
+}
+
+
+/* proceed to payment button*/
+.proceedtopaymentbutton{
+   background-color: red;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.proceedtopaymentbutton:hover{
+    color: white;
+    background-color: black;
+
+}
+
+/* our partners heading*/
+.ourpartnerheading{
+    background-color: navy;
+    color: white;
+    padding: 16px 40px;
+
+}
+
+/* contact us heading*/
+.contactusheading{
+    background-color: navy;
+    color: white;
+    padding: 16px 40px;
+}
+/* checkout page heading*/
+.checkoutpageheading{
+    background-color: navy;
+    color: white;
+    padding: 16px 40px;
+}
+
+/* payment comfirmation heading*/
+.paymentconfirmationheading{
+    background-color: navy;
+    color: white;
+    padding: 16px 40px;
+}
+/* contact us details end rows*/
+.contactusdetailsbuttomrowone{
+     
+    background-color: navy;
+    color: white;
+    
+}
+.contactusdetailsbuttomrowtwo{
+    background-color: none;
+}
+
+
+/* our team heading*/
+.ourteamheading{
+background-color: navy;
+font-size: 17px;
+color: white;
+padding: 14px 32px;
+}
