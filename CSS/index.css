@@ -150,6 +150,7 @@ padding: 5px;
 width: 180px;
 color: white;
 border: none;
+cursor: pointer;
 }
 
 .proceedtocheckoutbutton:hover{
