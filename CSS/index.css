@@ -14,8 +14,12 @@
     justify-content: space-between;
     list-style-type: none;
     font-size: 17px;
+    background-color: navy;
+    color: white;
+    padding: 16px 40px;
     
 }
+
 
 /* brand name */
 .brandname{
