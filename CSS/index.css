@@ -9,6 +9,21 @@
 
 
 
+.zerotopbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 13px;
+    background-color: navy;
+    color: white;
+    padding: 8px 15px;
+    margin: 0;
+}
+
+
+/*
 .zerotopbar ul{
     display: flex;
     justify-content: space-between;
@@ -19,6 +34,8 @@
     padding: 16px 40px;
     
 }
+*/
+
 
 /*products
 .products {
@@ -30,13 +47,40 @@
 }
 */
 
-
+/*products*/
 .products {
+  display: grid;
+  grid-template-columns: 1fr;   /* default: 1 per row */
+  gap: 20px;
+}
+
+/* Small phones */
+@media (min-width: 480px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Laptops */
+@media (min-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/*.products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
   padding: 40px 20px;
-}
+}*/
 
 .product {
   flex: 1 1 250px;
@@ -53,14 +97,94 @@
 
 }
 
+/*header and logo list*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Logo */
+.logo img {
+  width: 150px;
+  height: auto;
+}
+  
 
 
-/* brand name */
+/* Brand name */
+.brandname {
+  font-size: 30px;
+  margin: 0;
+ 
+    color: navy;
+}
+
+/* Social icons */
+.social-icons img {
+  width: 40px;
+  height: auto;
+
+}
+
+
+
+/*mobile*/
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+
+  .brandname {
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+  .logo img {
+  width: 50px;
+  height: auto;
+}
+
+.social-icons img {
+  width: 18px;
+  height: 18px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* brand name 
 .brandname{
     text-transform: uppercase;
     letter-spacing: 4px;
     color: navy;
 }
+
 /*
 
 /* navigation list*/
@@ -126,10 +250,18 @@ width: 110px;
 
 /* footer */
 .footer{
-background-color: black;
-font-size: 17px;
-color: white;
-padding: 14px 32px;
+background-color: #111;
+color: #CCC;
+text-align: center;
+padding: 12px 10px;
+  font-size: 16px;
+  margin-top: 20px;
+
+
+}
+
+.footer p {
+margin: 0;
 }
 
 /* about */
