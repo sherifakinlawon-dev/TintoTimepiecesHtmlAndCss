@@ -55,7 +55,7 @@
 }
 
 /* Small phones */
-@media (min-width: 480px) {
+@media (min-width: 400px) {
   .products {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -75,15 +75,8 @@
   }
 }
 
-/*.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 20px;
-  padding: 40px 20px;
-}*/
 
 .product {
-  flex: 1 1 250px;
   max-width: 300px;
   text-align: center;
   border: 1px solid #ddd;
